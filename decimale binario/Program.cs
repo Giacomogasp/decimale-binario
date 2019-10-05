@@ -6,7 +6,10 @@ namespace decimale_binario
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            int n = 10;
+            Console.WriteLine("inserisci un numero");
+            int n = int.Parse(Console.ReadLine());
+            Console.WriteLine($"il numero binario è {Convert.ToString(n, 2)}.");
         }
     }
 }
